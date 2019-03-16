@@ -1,0 +1,70 @@
+
+
+nav {
+  background-color: #c12127;
+  color: rgba(255,255,255,.8);
+  padding-top: 15px;
+  height: 10px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+nav a {
+  color: rgba(255,255,255,.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: -25px 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left a {
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+}
+
+.top-left {
+  margin-top: -8px;
+}
+
+.headerbackground {
+  color: white;
+  background-color: rgb(32,101,136);
+}
+
+.logo-search-login-bar input {
+  color: gray;
+  background-color: rgb(31, 82,111);
+}
+.logo-search-login-bar button {
+  background-color: rgb(31, 82,111);
+    border: none;
+}
+
+.logo-search-login-bar {
+  width: 100%;
+  display: inline-block;
+}
+
+.build-amazing-things {
+  font-weight: lighter;
+  width: 50%;
+  margin: 0 auto
+}
+.build-amazing-things img {
+  float:right;
+  margin-top: -150px;
+}
+
+
+
+
