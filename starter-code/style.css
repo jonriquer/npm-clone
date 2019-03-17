@@ -1,13 +1,15 @@
-
+* {
+  font-family: sans-serif;
+}
 
 nav {
   background-color: #c12127;
   color: rgba(255,255,255,.8);
   padding-top: 15px;
-  height: 10px;
+  height: 30px;
   font-weight: lighter;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 nav a {
@@ -19,7 +21,7 @@ nav a {
   display: inline-block;
   float: right;
   padding: 0;
-  margin: -25px 20px 0 0;
+  margin: -44px 20px 0 0;
 }
 
 .top-links li {
@@ -28,12 +30,12 @@ nav a {
 }
 
 .top-left a {
-  margin: auto;
+  margin: 0 auto;
   padding: 10px 10px 10px 10px;
 }
 
 .top-left {
-  margin-top: -8px;
+  margin-top: -4px;
 }
 
 .headerbackground {
@@ -41,18 +43,65 @@ nav a {
   background-color: rgb(32,101,136);
 }
 
-.logo-search-login-bar input {
-  color: gray;
-  background-color: rgb(31, 82,111);
-}
-.logo-search-login-bar button {
-  background-color: rgb(31, 82,111);
-    border: none;
+.logo-search-login-bar {
+  display: flex;
+  width: 100%
 }
 
-.logo-search-login-bar {
+.child {
   width: 100%;
-  display: inline-block;
+}
+
+.login {
+padding-top:  
+}
+.signup-login a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+}
+
+.signup-login p {
+  padding-right: 4px;
+  
+}
+
+.wider-signup {
+width: 55px;
+}
+
+.logopadding {
+  padding: 10px 15px;
+}
+
+.logo-search-login-bar input {
+  background-color: rgb(31,82,111);
+  color: gray;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding: 7px 0px;
+  margin-top: 10px;
+  font-size: 12px;
+  width: 96%;
+}
+
+.logo-search-login-bar button {
+  background-color: rgb(31,82,111);
+  border: none;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.logo-search-login-bar ul {
+  display: flex;
+}
+
+.logo-search-login-bar ul li {
+  list-style: none;
+}
+
+.logo-search-login-bar input {
+
 }
 
 .build-amazing-things {
@@ -60,10 +109,72 @@ nav a {
   width: 50%;
   margin: 0 auto
 }
-.build-amazing-things img {
-  float:right;
-  margin-top: -150px;
+
+.build-amazing-things h1 {
+  font-weight: lighter;
 }
+
+.build-amazing-things img {
+  float: right;
+  margin-top: -263px;
+  margin-right: -1000px;
+ }
+
+#section-one-button button {
+  background-color: rgb(240,146, 51);
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  width: 150px;
+}
+
+.colaboration-text {
+  float: right;
+  padding-right: 150px;
+  margin-top: -275px;
+  color: white;
+  font-weight: ligher;
+}
+
+#colab-text h1 {
+ font-weight: lighter;
+}
+
+#colab-text li  {
+  padding: 20px 0px 5px 0px;
+  font-size: 17px;
+}
+
+#colab-text button {
+  background-color: rgb(203,56, 55);
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  margin-bottom: -10px;
+}
+
+#colab-text a {
+  text-decoration: none; 
+  color: white;
+}
+
+.colab-container {
+  padding: 150px 0px 100px 0px;
+  padding-left: 125px;
+  margin: 0 auto;
+  background-color: rgb(39,53,71)
+}
+
+
 
 
 
